@@ -1,0 +1,229 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Hamburger Menu */
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+  }
+  
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: #000;
+    transform: rotate(0);
+    transition: all 0.5s;
+  }
+  
+  .hamburger-middle {
+    transform: translateY(7px);
+  }
+  
+  .hamburger-bottom {
+    transform: translateY(14px);
+  }
+  
+  .open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+  }
+  
+  .open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+  }
+  
+  .open .hamburger-middle {
+    display: none;
+  }
+  
+  .open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+  }
+
+
+
+
+/*........... Border..... */
+.ba{
+    width: 230px;
+    height: 230px;
+   border:2px solid #ff7f50;
+   border-left: none;
+   border-right: none;
+   border-bottom: none;
+   border-radius: 50%;
+  
+  }
+  .bb{
+    width: 250px;
+    height: 250px;
+   border:2px solid #ff7f50;
+   border-left: none;
+   border-right: none;
+   border-bottom: none;
+   border-radius: 50%;
+  }
+  
+  .bc{
+    width: 50px;
+    height: 50px;
+   border:2px solid #ff7f50;
+   border-left: none;
+   border-right: none;
+  border-bottom: none;
+   border-radius: 50%;
+  }
+  
+  /* ..........about anime .........*/
+  .bog{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 50%;
+   border:5px solid #ff7f50;
+  }
+  .get{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 50%;
+   border:5px solid #ff7f50;
+  }
+  .wik{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+   border:5px solid #ff7f50;
+  }
+  
+  /* text animation */
+  
+  .animated-text {
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+  }
+  
+  .animated-text span{
+    position: relative;
+  }
+  
+  .animated-text span::before{
+   content: "Youtuber";
+    color: #ff7f50;
+    animation: words 20s infinite;
+  }
+  
+  
+  .animated-text span::after{
+    content: " ";
+   position: absolute;
+   width: calc(100 +8px);
+   height: 100%;
+   background-color:white;
+   border-left: 2px solid #ff7f50;
+   right: -8px;
+   animation: cursor .8s infinite, typing 20s steps(14) infinite;
+  }
+  
+  
+  @keyframes cursor {
+    to{
+      border-left: 2px solid white;
+    }
+  }
+  @keyframes words {
+    0%,20%{
+      content: " FrontendDeveloper";
+    }
+    21%,40%{
+      content: "WebDesigner";
+    }
+    41%,60%{
+      content: "Freelancer";
+    }
+    61%,80%{
+      content: "Developer";
+    }
+    81%,100%{
+      content: "Designer";
+    }
+  }
+  @keyframes typing{
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+    width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px );
+  }
+  }
+  
+  
+  
+  .db{
+    width: 120px;
+  height: 120px;
+  border:2px solid #ff7f50;
+  border-radius: 100%;
+  position: absolute;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  z-index: -1;
+  
+  }
+  .font{
+    width: 115px;
+    height: 115px;
+    border:2px solid #ff7f50;
+    border-radius: 100%;
+    position: absolute;
+    padding-left: 60%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    z-index: -1;
+  }
+  .tat{
+    width: 115px;
+    height: 115px;
+    border:2px solid #ff7f50;
+    border-radius: 100%;
+    position: absolute;
+    border-right: none;
+    border-bottom: none;
+    z-index: -1;
+  }
+  .chats{
+    width: 120px;
+    height: 120px;
+    border:2px solid #ff7f50;
+    border-radius: 50%;
+    position: absolute;
+    border-right: none;
+    border-bottom: none;
+    z-index: -1;
+    
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
