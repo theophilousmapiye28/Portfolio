@@ -11,11 +11,12 @@
    <!-- Navbar -->
    <nav class="relative container mx-auto p-6">
     <!-- Flex container -->
-    <div class="flex items-center justify-between">
+     
+    <div class="flex items-center Items-end justify-between">
       <!-- Logo -->
-      <div class="pt-2 ">
+      
         <img src="css/images/Theophiluos.svg" alt="" />
-      </div>
+    
       <!-- Menu Items -->
       <div class="hidden space-x-6 md:flex">
          <a href="#hero" class="hover:text-darkGrayishBlue font-bold">Home</a>
@@ -27,7 +28,7 @@
       <!-- Button -->
       <a
         href="#contact"
-        class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+        class="hidden p-3 px-6 pt-2 text-white font-bold bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
         >Contact</a
       >
 
@@ -43,10 +44,10 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div class="md:hidden">
+    <div class="md:hidden z-10 ">
       <div
         id="menu"
-        class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md z-10"
       >
       <a href="#hero" class="hover:text-darkGrayishBlue font-bold">Home</a>
       <a href="#about" class="hover:text-darkGrayishBlue font-bold">About </a>
@@ -69,30 +70,28 @@
 
 
 
-      <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row h-full">
+      <div class="container flex flex-col  px-6 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row h-full ">
 
       
         <div class="flex flex-col-reverse space-y-12  ">
 
          
 
-          <div class="flex flex-col h-100vh ">
+          <div class="flex flex-col h-100vh">
             <h3 class="font-bold text-4xl">Hi it's me</h3>
                <h1 class="font-semi-bold text-4xl ">Theophilous Mapiye</h1>
                
                  <div class="animated-text">
-                  And I'm <span></span>
+                  And I'm <span class="-z-50"></span>
                 </div>
                 <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati corrupti nulla nihil <br>
                   . Dolor a totam fugiat maiores nemo non magnam, praesentium libero vel cum perferendis quos <br>
-                  recusandae asperiores, laboriosam ex. Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> 
-               Recusandae ipsam fugit earum, nostrum, laboriosam iusto minus dolorem natus porro quibusdam ducimus, <br> 
-               suscipit ex tenetur odit ratione est quae. Ea, delectus.    </p>
+                     </p>
 
-               <div class="flex justify-center md:justify-start p-3">
+               <div class="flex  md:justify-start p-3">
                 <a
                   href="#"
-                  class="p-3 px-6 pt-2 text-white font-bold bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+                  class="p-3 px-6 pt-2 text-white font-bold bg-brightRed rounded-full baseline hover:bg-brightRedLight "
                   >Download cv</a
                 >
               </div>
@@ -103,8 +102,8 @@
 
 
 
-               <div class=" flex space-x-3 ">
-                <a href=""   class="p-3 px-6 pt-2 bg-brightRed rounded-full baseline hover:bg-brightRedLight"> <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M8 2H1l8.26 11.015L1.45 22H4.1l6.388-7.349L16 22h7l-8.608-11.478L21.8 2h-2.65l-5.986 6.886zm9 18L5 4h2l12 16z"/></svg></a>
+               <div class=" flex space-x-3  ">
+
                 <a href=""   class="p-3 px-6 pt-2 bg-brightRed rounded-full baseline hover:bg-brightRedLight"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248c-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586c.173-.431.568-.878 1.232-.878c.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252c-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/></svg>  </a>
                 <a href=""   class="p-3 px-6 pt-2 bg-brightRed rounded-full baseline hover:bg-brightRedLight"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144l-2.494.654l.666-2.433l-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931a6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646c-.182-.065-.315-.099-.445.099c-.133.197-.513.646-.627.775c-.114.133-.232.148-.43.05c-.197-.1-.836-.308-1.592-.985c-.59-.525-.985-1.175-1.103-1.372c-.114-.198-.011-.304.088-.403c.087-.088.197-.232.296-.346c.1-.114.133-.198.198-.33c.065-.134.034-.248-.015-.347c-.05-.099-.445-1.076-.612-1.47c-.16-.389-.323-.335-.445-.34c-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992c.47.205.84.326 1.129.418c.475.152.904.129 1.246.08c.38-.058 1.171-.48 1.338-.943c.164-.464.164-.86.114-.943c-.049-.084-.182-.133-.38-.232"/></svg>  </a>
                 <a href=""   class="p-3 px-6 pt-2 bg-brightRed rounded-full baseline hover:bg-brightRedLight"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M15.725 22v-7.745h2.6l.389-3.018h-2.99V9.31c0-.874.243-1.47 1.497-1.47h1.598v-2.7a21 21 0 0 0-2.33-.12c-2.304 0-3.881 1.407-3.881 3.99v2.227H10v3.018h2.607V22H3.104C2.494 22 2 21.506 2 20.896V3.104C2 2.494 2.494 2 3.104 2h17.792C21.506 2 22 2.494 22 3.104v17.792c0 .61-.494 1.104-1.104 1.104z"/></svg> </a>
@@ -119,7 +118,7 @@
 </div>
            </div>
            <div class="flex flex-row-reverse pr-12 " >
-            <img src="/img/images (14).jpg" alt="" class="">
+            <img src="/css/images/images (14).jpg" alt="" class="">
           </div>
              
            </div>
@@ -136,13 +135,6 @@
           </div>
 
 
-          <div class="ba">
-            <div class="bb">
-              <div class="bc">
-          
-              </div>
-            </div>
-          </div>
 
           
   
@@ -152,15 +144,17 @@
       <!-- Section about -->
 
 <section id="about">
-<div  class="container h-100 px-4 mx-auto p-6 mt-10 w-100 space-y-6">
+<div  class="container h-100 px-4 mx-auto p-6 mt-10 w-100 space-y-6 pb-10 flex flex-col items-center justify-center">
  
-    <h1 class="text-black font-bold text-8xl text-center space-y-6">About <span class="text-brightRed">me</span></h1>
+
     
   <div class=" flex flex-col md:flex-row space-y-6 space-x-6">
+ 
     <div class="">
-      <img class="h-50" style=" height: 50vh;" src="css/images/images (4)23.png" alt="">
+      <img class="h-50" style=" height: 70vh;" src="css/images/images (4)23.png" alt="">
       </div>
     <div class="space-y-6">
+      <h1 class="text-black font-bold text-4xl text-center space-y-6">About <span class="text-brightRed">me</span></h1>
   <p>  I'm frontend development service showcases an exquisite <br>
     blend of creativity and functionality. With an adept mastery <br>
      of HTML, CSS, Next js, React js,Taiwindcss and JavaScript, I craft captivating user experiences <br>
@@ -168,7 +162,7 @@
        to detail and commitment to innovation elevate digital landscapes, making <br> 
        every project a masterpiece.          </p>
 
-    <div class="flex items-center justify-center md:justify-start">
+    <div class="flex items-center justify-center ">
       <a
         href="#contact"
         class="p-3 px-6 pt-2 text-white font-bold bg-brightRed rounded-full baseline hover:bg-brightRedLight"
@@ -186,13 +180,7 @@
 
 
 </div>
-<div class="bog">
-  <div class="get">
-    <div class="wik">
 
-    </div>
-  </div>
-</div>
 
 
 
@@ -201,13 +189,14 @@
 
 <!-- Section Services -->
 <section id="Services">
-  <div class="mt-10 space-y-12 md:space-y-0 md:flex-row">
-    <h1 class="text-brightRed font-bold text-8xl text-center">Services</h1>
-    <div class="flex flex-col-reverse items-center justify-center justify-between md:flex-row space-x-12  ">
+  <div class="mt-10 space-y-12 md:space-y-6 md:flex-row space-y-6">
+    <h1 class="text-brightRed font-bold text-4xl text-center space-y-6"> My <span class="text-black">Services</span></h1>
+  
+    <div class="flex flex-col-reverse items-center justify-center justify-between md:flex-row space-x-12    ">
 
-      <div class="bg-white drop-shadow-md space-x-6 p-6 space-y-12 hover:bg-brightRed hover:text-white active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all" >
+      <div class="h-20 bg-white drop-shadow-md space-x-6 p-6 space-y-12 hover:bg-brightRed hover:text-white active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all" >
 
-        <h3 class="text-black font-bold text-center " > Digital <span class="text-brightRed">Makerting</span> </h3>
+        <h3 class=" font-bold text-center " > Digital <span class="">Makerting</span> </h3>
         <p> I'm  also a digital marketing, I orchestrate an intricate 
           symphony of data-driven strategies and compelling storytelling.
            From SEO mastery to social media wizardry, my campaigns resonate 
@@ -215,9 +204,10 @@
             With agility and insight, I navigate the ever-evolving digital realm,
              ensuring brands thrive amidst the competition.       </p>
       </div>
+      
 
-      <div class="bg-white drop-shadow-md space-x-6 p-6 space-y-12 hover:bg-brightRed hover:text-white active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all">
-      <h3 class="text-black font-bold text-center">Frontend <span class="text-brightRed">Developer</span> </h3>
+      <div class="h-20 bg-white drop-shadow-md space-x-6 p-6 space-y-12 hover:bg-brightRed hover:text-white active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all md:pr-6">
+      <h3 class=" font-bold text-center">Frontend <span class="">Developer</span> </h3>
       <p>  I'm frontend development service showcases an exquisite
         blend of creativity and functionality. With an adept mastery
          of HTML, CSS,React and JavaScript, I craft captivating user experiences
@@ -229,11 +219,20 @@
 
 
 
+
+
+
+
+
+
+
+       
+
       
-<div class="bg-white drop-shadow-md space-x-6 p-6 space-y-12 hover:bg-brightRed hover:text-white active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all" >
+<div class="h-20 bg-white drop-shadow-md space-x-6 p-6 space-y-12 hover:bg-brightRed hover:text-white active:scale-[.98] hover:scale-[1.01] ease-in-out transition-all" >
  
 
-  <h3 class="text-black font-bold text-center">Web <span class="text-brightRed hover:text-white">Design</span> </h3>
+  <h3 class=" font-bold text-center">Web <span class="">Design</span> </h3>
   <p> I'm  also Webdesign ,  my   artfully merge user 
     empathy with design finesse. Seamlessly navigating between 
     wireframes and prototypes, I sculpt intuitive interfaces 
@@ -257,48 +256,95 @@
 
 <!-- Section portfolio -->
 <section id="portfolio">
-  <div class="mt-10 space-y-6 md:space-y-0 md:flex-row p-6">
-    <h1 class="text-brightRed font-bold text-4xl text-center mt-10">Projects</h1>
+  <div class="flex flex-col items-center justify-center mt-10 space-y-6 md:space-y-0 md:flex-row p-6">
+  
 
 
      
-<div class="flex flex-col items-center justify-center space-y-6 md:flex-1/2 md:flex-row space-x-6  p-6 ">
+<div class="flex flex-col items-center   space-y-12 md:flex-1/2  space-x-6  p-6 ">
+  <div class="space-y-6 ">
+  <h1 class="text-brightRed font-bold text-4xl text-center mt-10">My <span>Projects</span></h1>
+  <div class="flex items-center justify-center ">
+    <a
+      href="#contact"
+      class="p-3 px-6 pt-2 text-white font-bold bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+      >View all</a> 
 
-    <img style="width: 100%; height: 40vh;"  src="css/images/home,land.png"  >
-    <img style="width: 100%; height: 40vh;" src="css/images/Portfolio 1.png" alt="" >
+      
+  </div> 
+</div>
+
+
+
+   
+ 
+
+
+<div class="container4">
+  <div class=" card-container">
+    <article class=" card-article">
+      <img   src="css/images/vanlife project.png"  class="card--imag" >
+      <div class="card--data">
+        <span class="card--description"> home rental </span>
+      <h2 class="card--title"> the best of them all</h2>
+     <a href="" class="card--button">Read more</a>
+      </div>
+    </article>
+
+    <article class=" card-article">
+      <img   src="css/images/home,land.png"  class="card--imag" >
+      <div class="card--data">
+        <span class="card--description">home rental </span>
+      <h2 class="card--title">the best of them all</h2>
+     <a href="" class="card--button">Read more</a>
+      </div>
+    </article>
+
+
+
+    <article class=" card-article">
+      <img   src="css/images/home,land.png"  class="card--imag" >
+      <div class="card--data">
+        <span class="card--description">home rental </span>
+      <h2 class="card--title">the best of them all</h2>
+     <a href="" class="card--button">Read more</a>
+      </div>
+    </article>
+
+  </div>
+</div>
+
+
+
+
+
 
 
       
     
     </div>
    
+    
    
   </div>
-  <img style="width: 100%; height: 40vh;" src="css/images/Portfolio 1.png" alt="" >
-  </div>
+ 
+
 
 </section>
 
 
 <!-- Section contact -->
 <section id="contact">
-  <div class="flex flex-col space-y-12 mt-10">
+  <div class="flex flex-col space-y-12 mt-10 bg-black">
     
     <h1 class="text-black font-bold text-4xl text-center drop-shadow-md">Contact <span class="text-brightRed">me</span></h1>
 
-    <div class="db">
-      <div class="font">
-      <div class="tat">
-        <div class="chats">
-
-        </div>
-
-      </div>
-      </div>
-        </div>
+  
 <div class="flex flex-row items-center justify-center   ">
+  <div class="">
 
- 
+  <img src="css/images/images (14).jpg" alt="">
+</div>
 
   <div class="flex flex-col items-center justify-center space-y-6 ">
  
@@ -330,16 +376,6 @@
 </div>
 
 
-<div class="db">
-  <div class="font">
-  <div class="tat">
-    <div class="chats">
-
-    </div>
-
-  </div>
-  </div>
-    </div>
 </div>
 
 
