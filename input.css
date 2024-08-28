@@ -61,19 +61,22 @@
   padding-block: 5rem;
 }
 .card-container{
-  display: grid;
-  row-gap: 3.5rem;
+  /* display: grid;
+  row-gap: 3.5rem; */
 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
 }
 
 .card-article{
 position: relative;
-
+padding: 20px;
 
 }
 .card--imag{
   width: 328px;
-  border-radius: 1.5rem;
+  border-radius: 3px;
 }
 
 .card--data{
@@ -109,7 +112,7 @@ margin-bottom: .75rem;
 text-decoration: none;
 font-size: small;
 font-weight: 500;
-color: violet;
+color: blue;
 }
 .card--button:hover{
   text-decoration: underline;
@@ -187,7 +190,8 @@ transition: opacity .3s;
 
 .card--data{
   width: 250px;
-  padding: 1rem;
+  padding: 10px;
+
 }
 
 }
@@ -219,26 +223,7 @@ transition: opacity .3s;
 
 
   /* ..........about anime .........*/
-  .bog{
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    border-radius: 50%;
-   border:5px solid #ff7f50;
-  }
-  .get{
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    border-radius: 50%;
-   border:5px solid #ff7f50;
-  }
-  .wik{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-   border:5px solid #ff7f50;
-  }
+  
   
   /* text animation */
   
