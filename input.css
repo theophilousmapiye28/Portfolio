@@ -71,11 +71,11 @@ flex-wrap: wrap;
 
 .card-article{
 position: relative;
-padding: 20px;
+padding: 10px;
 
 }
 .card--imag{
-  width: 328px;
+  width: 428px;
   border-radius: 3px;
 }
 
@@ -92,6 +92,7 @@ padding: 20px;
   margin-inline: auto;
   opacity: 0;
   transition: opacity 1s 1s ;
+  padding: 20px;
 }
 
 .card--description{
